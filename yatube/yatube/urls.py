@@ -7,6 +7,7 @@ from django.conf.urls.static import static
 from rest_framework.authtoken import views as rfviews
 
 
+
 handler404 = "posts.views.page_not_found"
 handler500 = "posts.views.server_error"
 
